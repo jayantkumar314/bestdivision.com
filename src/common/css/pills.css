@@ -1,0 +1,66 @@
+.all_tags{
+    background-color: #606060;
+    color: #fff;
+}
+.pills>.pills_item {
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.pills_item {
+    border-radius: 10rem;
+    color: #212529;
+    background-color: #f8f9fa;
+    padding: 1rem 1rem;
+    margin: 1rem 0.3rem;
+    font-size: var(--theme-tag-font-size);
+    font-weight: var(--theme-tag-font-weight);
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .pills_item {
+        transition: none;
+    }
+}
+
+a.pills:hover,
+a.pills:focus {
+    text-decoration: none;
+}
+
+.pills:empty {
+    display: none;
+}
+
+.btn .pills {
+    position: relative;
+    top: -1px;
+}
+
+a.pills_item:hover,
+a.pills_item:focus {
+    color: #212529;
+    background-color: #dae0e5;
+}
+
+a.pills_item:focus,
+a.pills_item.focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
+}
+
+a.pills_item:hover,
+a.pills_item:focus {
+    color: #030303;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+a.pills_item:focus,
+a.pills_item.focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
+}

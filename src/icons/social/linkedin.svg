@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 192 192" style=" fill:#000000;">
+    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+        <path d="M0,192v-192h192v192z" fill="none"></path>
+        <g id="Layer_1">
+            <circle cx="24" cy="24" transform="scale(4,4)" r="20" fill="#0288d1"></circle>
+            <rect x="14" y="19" transform="scale(4,4)" width="4" height="15" fill="#ffffff"></rect>
+            <path d="M63.952,68h-0.088c-4.776,0 -7.864,-3.56 -7.864,-8.004c0,-4.54 3.184,-7.996 8.044,-7.996c4.868,0 7.864,3.456 7.956,7.996c0,4.444 -3.088,8.004 -8.048,8.004z" fill="#ffffff"></path>
+            <path d="M140,98c0,-12.152 -9.848,-22 -22,-22c-7.448,0 -14.02,3.712 -18,9.376v-9.376h-16v60h16v-32c0,-6.628 5.372,-12 12,-12c6.628,0 12,5.372 12,12v32h16c0,0 0,-36.316 0,-38z" fill="#ffffff"></path>
+        </g>
+    </g>
+</svg>

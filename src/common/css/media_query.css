@@ -1,0 +1,42 @@
+@media screen and (max-width: 320) {
+    .panel-post {
+        --theme-p-font-size: 1.4rem;
+        --theme-p-line-height: 1.4;
+        --theme-p-padding: 1rem 0;
+    }
+}
+@media screen and (max-width: 480) {
+    .panel-post {
+        --theme-p-font-size: 1.4rem;
+        --theme-p-line-height: 1.4;
+        --theme-p-padding: 1rem 0;
+    }
+}
+@media screen and (max-width: 655) {
+    .panel-post {
+        --theme-p-font-size: 1.4rem;
+        --theme-p-line-height: 1.4;
+        --theme-p-padding: 1rem 0;
+    }
+}
+@media screen and (max-width: 960) {
+    .panel-post {
+        --theme-p-font-size: 1.4rem;
+        --theme-p-line-height: 1.4;
+        --theme-p-padding: 1rem 0;
+    }
+}
+@media screen and (max-width: 1024) {
+    .panel-post {
+        --theme-p-font-size: 1.4rem;
+        --theme-p-line-height: 1.4;
+        --theme-p-padding: 1rem 0;
+    }
+}
+@media screen and (max-width: 1280) {
+    .panel-post {
+        --theme-p-font-size: 1.4rem;
+        --theme-p-line-height: 1.4;
+        --theme-p-padding: 1rem 0;
+    }
+}

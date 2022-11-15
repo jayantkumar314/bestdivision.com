@@ -1,0 +1,76 @@
+#button_share {
+    margin-left: 27px
+}
+
+.share_buttons_wrap {
+    width: 100%;
+    padding: 30px 10px;
+    display: inline-block
+}
+
+.socialShareButtonItem {
+    display: inline-block;
+    float: left;
+    padding: 10px
+}
+
+.socialItem {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #f5f5f5;
+    margin: 0 auto;
+    padding: 10px
+}
+
+.socialItem_icon {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    cursor: pointer
+}
+
+.socialsharename {
+    width: 100%;
+    display: inline-block;
+    padding-top: 10px;
+    text-align: center;
+    font-weight: 400;
+    color: #292929;
+    font-size: 13px
+}
+
+.xl_w {
+    display: inline-block
+}
+
+.mobile_w {
+    display: none
+}
+
+@media only screen and (max-width: 500px) {
+    .xl_w {
+        display: none
+    }
+
+    .mobile_w {
+        display: inline-block
+    }
+}
+@media (min-width: 576px) .share_modal {
+    min-height: calc(100% - 3.5rem);
+}
+@media (min-width: 576px) .share_modal {
+    max-width: 500px;
+}
+.socialItem_icon svg{
+    width: 40px;
+    height: 40px;
+}
+.share_modal{
+    max-width: 500px;
+    margin: 1.75rem auto;
+}

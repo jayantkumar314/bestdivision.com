@@ -1,0 +1,111 @@
+#aniimated-thumbnials{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+#single_blog_body{
+    width: 100%;
+}
+.user-comments .main-comment {
+    margin-bottom: 40px;
+    margin-bottom: 20px !important;
+}
+.user-comments .main-comment .user-avatar {
+    width: 50px;
+    margin-right: 10px;
+}
+.user-comments .main-comment .user-avatar img {
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid #f4f4f4;
+}
+.main-comment .delete-comment {
+    margin-left: 3px;
+}
+.delete-comment {
+    color: #666;
+    cursor: pointer;
+}
+.pull-right {
+    float: right !important;
+}
+.main-comment .delete-comment svg.feather {
+    color: #aaa;
+    margin-top: 0;
+    width: 15px;
+    height: 15px;
+    visibility: hidden;
+}
+svg.feather {
+    vertical-align: middle;
+    margin-top: -4px;
+    width: 19px;
+    height: 19px;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+.user-comments .main-comment .user-comment {
+    width: 85%;
+    font-size: 13px;
+    overflow: hidden;
+    color: #777;
+    font-family: Lato, sans-serif;
+}
+.user-comments .main-comment .user-comment .div-vote-comment {
+    color: #888;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.pointer {
+    cursor: pointer;
+    cursor: pointer !important;
+}
+.pt-comment-replies{
+    width: 100%;
+    padding: 0 0 0 60px;
+}
+.main-comment-reply {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    overflow: hidden;
+}
+.main-comment .delete-comment {
+    margin-left: 3px;
+}
+.pt_blogcomm_combo button {
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+    padding: 0 15px;
+    margin-left: 10px;
+}
+.btn-main {
+    background-color: #04abf2;
+    color: #fff;
+}
+.sort-comments-dropdown {
+    margin-left: 10px;
+}
+.sort-comments-dropdown .dropdown-toggle {
+    font-size: inherit;
+    text-transform: capitalize;
+}
+.sort-comments-dropdown .dropdown-toggle i {
+    font-size: 20px;
+}
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}

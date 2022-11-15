@@ -1,0 +1,12 @@
+.search_borderBottom {
+    /* padding-left: 20%; */
+    background: black;
+}
+
+.jk-line-tab {
+    border-bottom: 1px solid black;
+}
+
+.search_main {
+    min-width: 100%;
+}

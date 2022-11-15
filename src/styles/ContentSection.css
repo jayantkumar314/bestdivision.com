@@ -1,0 +1,78 @@
+.payment_form{
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, .08),
+    0 2px 4px 0 rgba(0, 0, 0, .12);
+
+    font-family: Roboto,
+    Helvetica Neue,
+    Helvetica,
+    Arial,
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.3;
+    margin: 0;
+    overflow-x: hidden;
+    -webkit-tap-highlight-color: transparent;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 50%;
+    flex-basis: 50%;
+}
+.payment_form .paymentForm_radioContanier {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    line-height: 58px;
+    align-items: center;
+    box-shadow: inset 0 -1px 0 0 #dedede;
+    padding-left: 24px;
+    padding-right: 24px;
+        outline: -webkit-focus-ring-color auto 1px;
+    
+}
+.payment_form::selection{
+    font-weight: 700; 
+}
+
+#kyalaal{
+    display: none;
+}
+.jkkkmain {
+    min-width: 100%;
+}
+.show_more {
+   text-align:center; 
+   padding-bottom: 1rem;
+}
+.swiper-container {
+    margin: 0 auto;
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+    list-style: none;
+    padding: 0;
+    /* Fix of Webkit flickering */
+    z-index: 1;
+    /* background: radial-gradient(#00000052, transparent); */
+    background: #fff;
+}
+.swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    -o-transition-property: transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    justify-content: flex-start;
+    padding-left: 30px;
+}

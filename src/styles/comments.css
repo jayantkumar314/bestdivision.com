@@ -1,0 +1,66 @@
+.pt_video_comments{
+    /* width: 60%; */
+    padding: 2rem;
+    border: 1px solid;
+}
+.comments-header{
+    display: flex;
+    justify-content: space-between;
+}
+.user_name{
+    display: flex;
+}
+.user-heading{
+    /* background-color: #fff; */
+    border-radius: 0;
+    display: flex;
+}
+.user-heading img{
+    width: 45px;
+    height: 45px;
+    contain: content;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+/* .user-heading .media-body{
+    display: flex;
+} */
+.user-comment p{
+    font-size: 1.4rem ;
+    padding: 0;
+}
+.media-heading{
+    align-items: center;
+}
+.times_in_ago{
+    padding-left: 1rem;
+}
+.pt-comment-replies {
+    max-height: 500px;
+    overflow-y: auto !important;
+}
+.loader_container{
+    display: block;
+    text-align: center;
+}
+.comment_replies_button{
+    padding-top: 1rem;
+    /* font-size: 1rem; */
+    color: blue;
+}
+.main-comment{
+    border-bottom: 1px solid #eee;
+}
+.main-comment-data-sp{
+    padding-top: 1rem;
+}
+.main-comment-reply{
+    font-size: 1rem;
+}
+.panel-post{
+    padding-top: 1rem;
+}
+.div-vote-comment-btn svg{
+    width: 14px;
+    height: 14px;
+}
